@@ -2,10 +2,10 @@ package domain;
 
 public class Departamento extends Inmueble{
     private double cantidadAmbientes;
-    private double precio;
+    private static double precioxAmbiente=350000;
 
     @Override
     public double precioTotal(){
-        return this.precio=(350000*cantidadAmbientes);
+        return (precioxAmbiente*cantidadAmbientes);
     }
 }

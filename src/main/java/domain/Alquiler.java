@@ -1,4 +1,4 @@
 package domain;
 
-public class Alquiler {
+public class Alquiler extends Operacion {
 }

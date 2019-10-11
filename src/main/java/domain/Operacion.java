@@ -1,5 +1,5 @@
 package domain;
 
 public abstract class Operacion {
-    private String estado;
+    private EstadoOperacion estadoOperacion;
 }

@@ -2,10 +2,11 @@ package domain;
 
 public class PH extends Inmueble {
     private double metroscuadrados;
-    private double precio;
+    private static double precioxMetrocuadrado;
+    private static double montoMinimo;
 
     @Override
     public double precioTotal(){
-        return this.precio=(14000*metroscuadrados)+50000;
+        return (precioxMetrocuadrado*metroscuadrados)+montoMinimo;
     }
 }

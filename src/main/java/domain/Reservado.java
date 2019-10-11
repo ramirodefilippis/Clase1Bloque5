@@ -1,4 +1,4 @@
 package domain;
 
-public class Reservado {
+public class Reservado implements EstadoOperacion {
 }

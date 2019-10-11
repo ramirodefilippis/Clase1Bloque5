@@ -1,4 +1,4 @@
 package domain;
 
-public class NoReservado {
+public class NoReservado implements EstadoOperacion {
 }

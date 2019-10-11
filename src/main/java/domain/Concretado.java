@@ -1,4 +1,4 @@
 package domain;
 
-public class Concretado {
+public class Concretado implements EstadoOperacion{
 }
